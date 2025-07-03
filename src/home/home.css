@@ -1,0 +1,1287 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Shadows+Into+Light&family=Twinkle+Star&display=swap');
+
+.Header {
+    width: 100%;
+    height: 600px;
+    background-image: url(div.elementor-repeater-item-e19a52a.png);
+    background-position: center;
+    background-size: cover;
+    /* padding-left: 100px; */
+}
+
+.MiniHeader {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 1000px;
+    position: absolute;
+    top: 150px;
+    left: 50px;
+    right: 0;
+    margin: auto;
+}
+
+.Header h1 {
+    color: white;
+    font-size: 74px;
+}
+
+.Header h1 b {
+    color: #EEC044;
+    font-size: 80px;
+    letter-spacing: 7px;
+    font-family: "Covered By Your Grace";
+    /* font-style: oblique; */
+}
+
+.ShowBtn button {
+    height: 50px;
+    width: 140px;
+    background-color: #4BAF47;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    font-size: 12px;
+}
+.ShowBtn button:hover{
+    transition: all 0.4s linear;
+    background-color: #000;
+    color: #fff;
+    width: 160px;
+    border: 1px dotted rgb(248, 215, 27);
+    font-size: 18px;
+    font-family: "Covered By Your Grace";
+}
+
+@media (max-width:750px) {
+    .Header h1 {
+        color: white;
+        font-size: 55px;
+    }
+
+    .Header h1 b {
+        color: #EEC044;
+        font-size: 60px;
+        letter-spacing: 4px;
+        font-family: cursive;
+        font-style: oblique;
+    }
+
+    .ShowBtn button {
+        height: 45px;
+        width: 120px;
+        background-color: #4BAF47;
+        border-radius: 8px;
+        border: none;
+        color: white;
+        font-size: 15px;
+    }
+}
+
+@media (max-width:450px) {
+    .Header {
+        width: 100%;
+        height: 600px;
+        background-image: url(div.elementor-repeater-item-e19a52a.png);
+        background-position: center;
+        background-size: cover;
+        text-align: center;
+        padding: 0px;
+    }
+
+    .MiniHeader {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        max-width: 1000px;
+        position: absolute;
+        top: 150px;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    .Header h1 {
+        color: white;
+        font-size: 50px;
+    }
+
+    .Header h1 b {
+        color: #EEC044;
+        font-size: 50px;
+        letter-spacing: 4px;
+        font-family: cursive;
+        font-style: oblique;
+    }
+}
+
+
+.DownHeader {
+    width: 70%;
+    border: none;
+    height: 120px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px 1px silver;
+    margin: auto;
+    position: relative;
+    top: -60px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 0;
+    right: 0;
+    gap: 10px;
+    padding: 10px;
+}
+
+@media (max-width:850px) {
+    .DownHeader {
+        width: 80%;
+        border: none;
+        height: 120px;
+        border-radius: 10px;
+        box-shadow: 2px 2px 10px 1px silver;
+        position: relative;
+        top: -60px;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        left: 0;
+        right: 0;
+        margin: auto;
+        gap: 10px;
+        padding: 10px;
+    }
+}
+
+.ReturnPolicy {
+    height: 60px;
+    width: 33%;
+    border-right: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.ReturnPolicy p {
+    line-height: 25px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.ReturnPolicy p b {
+    color: black;
+}
+
+.ReturnPolicy2 {
+    height: 60px;
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.ReturnPolicy2 p {
+    line-height: 25px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.ReturnPolicy2 p b {
+    color: black;
+}
+
+@media (max-width: 744px) {
+    .DownHeader {
+        width: 80%;
+        border: none;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: 2px 2px 10px 1px silver;
+        position: relative;
+        top: -80px;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        left: 0;
+        right: 0;
+        margin: auto;
+        column-gap: 100px;
+        row-gap: 40px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        flex-wrap: wrap;
+    }
+
+    .ReturnPolicy {
+        height: 60px;
+        width: 180px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        border: none;
+    }
+
+    .ReturnPolicy p {
+        line-height: 25px;
+        color: rgba(0, 0, 0, 0.5);
+    }
+
+    .ReturnPolicy p b {
+        color: black;
+    }
+
+    .ReturnPolicy2 {
+        height: 60px;
+        width: 180px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        border: none;
+    }
+
+    .ReturnPolicy2 p {
+        line-height: 25px;
+        color: rgba(0, 0, 0, 0.5);
+    }
+
+    .ReturnPolicy2 p b {
+        color: black;
+    }
+}
+
+@media (max-width: 574px) {
+    .DownHeader {
+        width: 80%;
+        border: none;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: 2px 2px 10px 1px silver;
+        position: relative;
+        top: -130px;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        left: 0;
+        right: 0;
+        margin: auto;
+        column-gap: 100px;
+        row-gap: 40px;
+        /* padding: 10px;*/
+        padding-top: 20px;
+        padding-bottom: 20px;
+        flex-wrap: wrap;
+    }
+}
+
+.latestproduct {
+    text-align: center;
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.latestproduct p {
+    color: #EEC044;
+    font-family: "Covered By Your Grace";
+    font-size: 20px;
+}
+
+.latestproduct h1 {
+    color: #000;
+    font-family: arial;
+    margin-top: 10px;
+}
+
+@media (max-width:744px) {
+    .latestproduct {
+        text-align: center;
+        margin-top: -30px;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width:574px) {
+    .latestproduct {
+        text-align: center;
+        margin-top: -60px;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+.mainCards {
+    width: 100%;
+    height: auto;
+    /* border: 1px solid; */
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 300px 300px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    row-gap: 90px;
+    column-gap: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.cards {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.cards h3 {
+    font-family: Verdana, arial;
+    font-weight: 500;
+    margin-top: 6px;
+}
+
+.cards p {
+    color: #4BAF47;
+}
+
+.cards img {
+    width: 280px;
+    height: 300px;
+    border-radius: 15px;
+}
+
+.cards img:hover{
+    transition: 0.5s;
+    width: 300px;
+    height: 310px;
+}
+
+.cards .rankimg {
+    width: 90px;
+    height: 15px;
+}
+
+@media (max-width:1000px) {
+    .mainCards {
+        width: 100%;
+        height: auto;
+        /* border: 1px solid; */
+        display: grid;
+        grid-template-columns: 300px 300px;
+        grid-template-rows: 300px 300px 300px;
+        justify-content: center;
+        align-items: center;
+        /* margin-top: 100px; */
+        row-gap: 90px;
+        column-gap: 20px;
+    }
+}
+
+@media (max-width:650px) {
+    .mainCards {
+        width: 100%;
+        height: auto;
+        /* border: 1px solid; */
+        display: grid;
+        grid-template-columns: 300px;
+        grid-template-rows: 300px 300px 300px 300px 300px;
+        justify-content: center;
+        align-items: center;
+        row-gap: 90px;
+        column-gap: 20px;
+    }
+}
+
+.yellowGreenContanair {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    gap: 60px;
+    /* margin-top: 50px; */
+    position: relative;
+    top: 60px;
+}
+
+.yellowGreenContanair h2 {
+    font-family: "Covered By Your Grace";
+}
+
+.yellow {
+    width: 450px;
+    height: 250px;
+    border-radius: 15px;
+    background-image: url(yellowVeg.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.green {
+    width: 450px;
+    height: 250px;
+    border-radius: 15px;
+    background-image: url(greenVeg.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.y1 {
+    max-width: 380px;
+    /* border: 1px solid; */
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.g1 {
+    max-width: 380px;
+    /* border: 1px solid; */
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.yellowGreenContanair p {
+    color: #fff;
+}
+
+.yellowGreenContanair h2 {
+    color: #fff;
+    font-size: 35px;
+}
+
+.yellowGreenContanair button {
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+}
+.yellowGreenContanair button:hover {
+    transition: 0.5s;
+    width: 115px;
+    height: 42px;
+    border-top: 2px solid red;
+    border-left: 1px solid red;
+    border-right: 1px solid red;
+    border-bottom: none;
+    border-radius: 6px;
+    color: #e4c413;
+    background-color: #000;
+}
+
+.healthyFood {
+    width: 100%;
+    height: 400px;
+    background-image: url(14c2460b003ee8640886f80f9dc9a70b.jpeg);
+    background-position: center;
+    background-size: cover;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.healthyFood h1 {
+    color: #fff;
+    font-size: 35px;
+    font-family: verdana, arial, sans-serif;
+    font-style: unset;
+    margin-top: 70px;
+}
+
+.healthyFood button {
+    width: 100px;
+    height: 44px;
+    border: none;
+    border-radius: 6px;
+    background-color: #4BAF47;
+}
+.healthyFood button:hover {
+    transition: 0.4s;
+    width: 125px;
+    height: 47px;
+    border: 1px solid #eebd1c;
+    border-radius: 8px;
+    background-color: #000;
+    color: #eebd1c;
+}
+
+@media (max-width:1010px) {
+    .yellowGreenContanair {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border: none;
+        gap: 30px;
+        /* margin-top: 50px; */
+        position: relative;
+        top: 60px;
+    }
+}
+
+@media (max-width:500px) {
+    .green {
+        width: 320px;
+        height: 250px;
+        border-radius: 15px;
+        background-image: url(greenVeg.png);
+        background-position: center;
+        background-size: cover;
+    }
+
+    .yellow {
+        width: 320px;
+        height: 250px;
+        border-radius: 15px;
+        background-image: url(yellowVeg.png);
+        background-position: center;
+        background-size: cover;
+    }
+
+    .y1 {
+        max-width: 250px;
+        /* border: 1px solid; */
+        margin: auto;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .g1 {
+        max-width: 250px;
+        /* border: 1px solid; */
+        margin: auto;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+}
+
+.hotDeal {
+    text-align: center;
+    margin-top: 50px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hotDeal p {
+    color: #EEC044;
+    font-family: "Covered By Your Grace";
+    font-size: 20px;
+}
+
+.hotDeal h1 {
+    color: #000;
+    font-family: arial;
+    margin-top: 10px;
+}
+
+.vegContanair2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* border: 1px solid; */
+    gap: 20px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+.cards2 {
+    width: auto;
+    height: auto;
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.cards2 img {
+    width: 280px;
+    height: 280px;
+    border-radius: 12px;
+}
+
+.cards2 img:hover{
+    transition: 0.4s;
+    width: 290px;
+    height: 300px;
+}
+
+.mt {
+    display: flex;
+    justify-content: space-between;
+    /* width: 100%; */
+}
+
+.mt img {
+    height: 13px;
+    width: 90px;
+}
+
+
+.qualityProducts {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    column-gap: 40px;
+    margin-top: 200px;
+}
+
+.imgsec img {
+    height: 500px;
+    width: 600px;
+}
+
+.section2{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 550px;
+    /* border: 1px solid; */
+}
+
+.textsec p {
+    color: #EEC044;
+    font-family: "Covered By Your Grace";
+    font-size: 23px;
+}
+.textsec h1{
+    margin-top: 10px;
+    font-family: arial , verdana;
+    font-size: 50px;
+}
+.peregraph{
+    font-family: arial, verdana;
+    font-size: 14px;
+    color: #878680;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+
+.miniSec{
+    display: flex;
+    column-gap: 30px;
+    font-family: arial, verdana;
+    align-items: center;
+}
+
+.miniSec h1{
+    margin-top: 12px;
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+.miniSec h1 b{
+    font-size: 13px;
+    font-weight: 100;
+    color: #878680;
+    position: relative;
+    top: -10px;
+}
+
+.miniSec2{
+    display: flex;
+    column-gap: 30px;
+    font-family: arial, verdana;
+    align-items: center;
+}
+
+.miniSec2 h1{
+    margin-top: 12px;
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+.miniSec2 h1 b{
+    font-size: 13px;
+    font-weight: 100;
+    color: #878680;
+    position: relative;
+    top: -10px;
+}
+
+.section2 button{
+    width: 140px;
+    background-color: #4BAF47;
+    height: 49px;
+    border: none;
+    border-radius: 8px;
+    font-size: 12px;
+    font-family: Arial, verdana;
+    margin-top: 10px;
+}
+.section2 button:hover{
+    transition: 0.6s;
+    background-color: #000;
+    color: #fff;
+    width: 170px;
+    border: 1px dashed rgb(248, 215, 27);
+}
+
+@media (max-width:1250px) {
+    .qualityProducts {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        column-gap: 40px;
+        margin-top: 200px;
+        row-gap: 30px;
+    }
+    .section2{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        width: auto;
+        /* border: 1px solid; */
+        padding: 20px;
+    }
+}
+@media (max-width:650px) {
+    .imgsec img {
+        height: 440px;
+        width: 430px;
+    }
+}
+@media (max-width:470px) {
+    .imgsec img {
+        height: 390px;
+        width: 380px;
+    }
+}
+@media (max-width:410px) {
+    .imgsec img {
+        height: 320px;
+        width: 320px;
+    }
+}
+
+.proDetail{
+    color: #A5A49A;
+    background-color: #000;
+    border: none;
+    height: 200px;
+    width: 100%;display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* gap: 10px; */
+    margin-top: 100px;
+    flex-wrap: wrap;
+}
+
+.OurTestimonials{
+    height: 600px;
+    width: 100%;
+    border: none;
+    background-image: url(backgroundOffWhite.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.testp{
+    color: #EEC044;
+    font-family: "Covered By Your Grace";
+    font-size: 23px;
+}
+.OurTestimonials h1{
+    font-size: 50px;
+    font-family: arial , verdana;
+}
+.ourtesti{
+    display: flex;
+    gap: 100px;
+    margin-top: 60px;
+}
+.testi1{
+    width: 420px;
+    height: 270px;
+    border: none;
+    background-color: #fff;
+    box-shadow: 0px 1px 10px 8px silver;
+    /* background-image: url(AppleTree.png);
+    background-position: center;
+    background-size: cover; */
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.review{
+    width: 300px;
+    /* border: 1px solid;   */
+    height: auto;
+    margin-top: 50px;
+    margin-left: 60px;
+}
+.review img{
+    width: 110px;
+    height: 20px;
+    margin-top: 5px;
+}
+.reviewLines p{
+    color: #878680;
+    font-size: 12px;
+    font-family: verdana, arial;
+    margin-top: 20px;
+    line-height: 20px;
+}
+.testi2{
+    width: 420px;
+    height: 270px;
+    border: none;
+    background-color: #fff;
+    box-shadow: 0px 1px 10px 8px silver;
+    /* background-image: url(GehuWithAadmi.png);
+    background-position: center;
+    background-size: cover; */
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.avatar{
+    position: absolute;
+    left: -76px;
+    top: 43px;
+}
+@media (max-width:1200px) {
+    .OurTestimonials{
+        height: auto;
+        padding-top: 40px;
+        padding-bottom: 20px;
+        width: 100%;
+        border: none;
+        background-image: url(backgroundOffWhite.png);
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .ourtesti{
+        display: flex;
+        gap: 40px;
+        /* margin: 60px; */
+        flex-direction: column;
+    }
+}
+@media (max-width:650px) {
+    .testp{
+        color: #EEC044;
+        font-family: "Covered By Your Grace";
+        font-size: 23px;
+        text-align: center;
+    }
+    .OurTestimonials h1{
+        font-size: 50px;
+        font-family: arial , verdana;
+        text-align: center;
+    }
+    .ourtesti{
+        display: flex;
+        gap: 40px;
+        margin-top: 30px;
+        flex-direction: column;
+    }
+    .testi1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 370px;
+        height: 220px;
+        border: none;
+        background-color: #fff;
+        box-shadow: 0px 1px 10px 8px silver;
+        border-radius: 10px;
+        position: relative;
+    }
+    .testi2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 370px;
+        height: 220px;
+        border: none;
+        background-color: #fff;
+        box-shadow: 0px 1px 10px 8px silver;
+        border-radius: 10px;
+        position: relative;
+    }
+    .avatar{
+        position: absolute;
+        left: 140px;
+        margin: auto;
+        top: 28px;
+        left: 230px;
+        border-radius: 50%;
+        height: 60px;
+        width: 60px;
+    }
+    .review{
+        width: 300px;
+        margin-left: -5px;
+        margin-top: -1px;
+    }
+    .review img{
+        width: 110px;
+        height: 20px;
+        margin-top: 5px;
+    }
+    .reviewLines p{
+        color: #878680;
+        font-size: 12px;
+        font-family: verdana, arial;
+        /* margin-top: 20px; */
+        line-height: 20px;
+    }
+}
+@media (max-width:410px) {
+    .testi1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 300px;
+        height: 220px;
+        border: none;
+        background-color: #fff;
+        box-shadow: 0px 1px 10px 8px silver;
+        border-radius: 10px;
+        position: relative;
+    }
+    .testi2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 300px;
+        height: 220px;
+        border: none;
+        background-color: #fff;
+        box-shadow: 0px 1px 10px 8px silver;
+        border-radius: 10px;
+        position: relative;
+    }
+    .avatar{
+        position: absolute;
+        left: 140px;
+        margin: auto;
+        top: 13px;
+        left: 180px;
+        border-radius: 50%;
+        height: 60px;
+        width: 60px;
+    }
+    .review{
+        width: 250px;
+        margin-left: -5px;
+        margin-top: -1px;
+    }
+}
+.articals{
+    margin-top: 50px;
+}
+.articals p{
+    color: #EEC044;
+    font-family: "Covered By Your Grace";
+    font-size: 23px;
+    text-align: center;
+}
+.articals h1{
+    font-size: 50px;
+    font-family: arial , verdana;
+    text-align: center;
+}
+.branding{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap:40px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+.brand{
+    height: 290px;
+    width: 260px;
+    border: none;
+    border-radius: 8px;
+    background-image: url(kevin.Smith.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    position: relative;
+}
+.brand:hover{
+    height: 295px;
+    width: 265px;
+    border: none;
+    border-radius: 8px;
+    background-image: url(kevin.Smith.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    position: relative;
+    transition: 0.2s;
+}
+.brand1{
+    height: 290px;
+    width: 260px;
+    border: none;
+    border-radius: 8px;
+    background-image: url("jessica brown.png");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    position: relative;
+}
+.brand1:hover{
+    height: 295px;
+    width: 265px;
+    border: none;
+    border-radius: 8px;
+    background-image: url("jessica brown.png");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    position: relative;
+    transition: 0.2s;
+}
+.brand2{
+    height: 290px;
+    width: 260px;
+    border: none;
+    border-radius: 8px;
+    background-image: url("devid martin.png");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    position: relative;
+}
+.brand2:hover{
+    height: 295px;
+    width: 265px;
+    border: none;
+    border-radius: 8px;
+    background-image: url("devid martin.png");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    position: relative;
+    transition: 0.2s;
+}
+.bra{
+    height: 65px;
+    width: 190px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 8px 3px silver;
+    background-color: #fff;
+    position: absolute;
+    bottom: -26px;
+    right: -25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.spanbtn{
+    height: 45px;
+    width: 45px;
+    position: absolute;
+    top: 9.6px;
+    left: -24px;
+}
+.spanbtn:hover{
+    transition: 0.4s;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 9.6px;
+    left: -24px;
+}
+.brainfo{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-left: 25px;
+}
+.brainfo h4{
+    font-family: verdana, arial;
+    font-size: 16px;
+}
+.brainfo p{
+    color: #878680;
+    font-family: verdana, arial;
+    font-size: 13px;
+    margin-top: 5px;
+}
+@media (max-width:558px) {
+    .bra{
+        height: 65px;
+        width: 190px;
+        border: none;
+        border-radius: 5px;
+        box-shadow: 1px 1px 8px 3px silver;
+        background-color: #fff;
+        position: absolute;
+        bottom: -28px;
+        right: 28px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.greenNAture{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+.greenPro{
+    height: 250px;
+    width: 220px;
+    border: none;
+    border-radius: 8px;
+    background-image: url("div.thumb.png");
+    background-position: center;
+    background-size: cover;
+}
+.greenPro:hover{
+    transition: 0.7s;
+    height: 275px;
+    width: 245px;
+    border: none;
+    border-radius: 8px;
+    /* background-image: url("two-finger-salute.webp"); */
+    background-position: center;
+    background-size: cover;
+}
+.greenPro2{
+    height: 250px;
+    width: 220px;
+    border: none;
+    border-radius: 8px;
+    background-image: url("div.thumb (1).png" );
+    background-position: center;
+    background-size: cover;
+}
+.greenPro2:hover{
+    transition: 0.7s;
+    height: 275px;
+    width: 245px;
+    border: none;
+    border-radius: 8px;
+    /* background-image: url("two-finger-salute.webp"); */
+    background-position: center;
+    background-size: cover;
+}
+.greenPro3{
+    height: 250px;
+    width: 220px;
+    border: none;
+    border-radius: 8px;
+    background-image: url("div.thumb (2).png" );
+    background-position: center;
+    background-size: cover;
+}
+.greenPro3:hover{
+    transition: 0.7s;
+    height: 275px;
+    width: 245px;
+    border: none;
+    border-radius: 8px;
+    /* background-image: url("two-finger-salute.webp"); */
+    background-position: center;
+    background-size: cover;
+}
+.greenPro4{
+    height: 250px;
+    width: 220px;
+    border: none;
+    border-radius: 8px;
+    background-image: url("div.thumb (3).png" );
+    background-position: center;
+    background-size: cover;
+}
+.greenPro4:hover{
+    transition: 0.7s;
+    height: 275px;
+    width: 245px;
+    border: none;
+    border-radius: 8px;
+    /* background-image: url("two-finger-salute.webp"); */
+    background-position: center;
+    background-size: cover;
+}
+.greenPro5{
+    height: 250px;
+    width: 220px;
+    border: none;
+    border-radius: 8px;
+    background-image: url("div.thumb (4).png" );
+    background-position: center;
+    background-size: cover;
+}
+.greenPro5:hover{
+    transition: 0.7s;
+    height: 275px;
+    width: 245px;
+    border: none;
+    border-radius: 8px;
+    /* background-image: url("two-finger-salute.webp"); */
+    background-position: center;
+    background-size: cover;
+}

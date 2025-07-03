@@ -1,0 +1,557 @@
+.firstSec{
+    height: 350px;
+    width: 100%;
+    border: none;
+    background-image: url('gehu ki kheti.png');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 10px;
+    color: white;
+}
+.firstSec p{
+    font-size: 15px;
+    font-family: verdana;
+}
+.firstSec h1{
+    font-size: 48px;
+    font-family: verdana;
+}
+.biggerSec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    border: 1px solid;
+    column-gap: 80px;
+    flex-wrap: wrap;
+    row-gap: 40px;
+}
+.big1{
+    width: 400px;
+    height: 550px;
+    background-image: url('tractor.png');
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    align-items: end;
+    margin-inline: 10px;
+}
+.big1 img{
+    width: 250px;
+    height: 280px;
+    border-radius: 10px;
+    position: absolute;
+    left: -100px;
+}
+.big2{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+.big2 .p1{
+    font-family: "Covered By Your Grace";
+    color: #EEC044;
+    font-size: 24px;
+}
+.big2 h1{
+    color: #000;
+    font-size: 45px;
+    font-family: arial;
+}
+.big2 .p2{
+    color: #4BAF47;
+    font-size: 15px;
+    font-family: verdana;
+    line-height: 26px;
+}
+.big2 .p3{
+    color: #878680;
+    font-size: 13px;
+    font-family: verdana;
+    line-height: 26px;
+}
+.big2 .p4{
+    color: #000;
+    font-size: 15px;
+    font-family: verdana;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.big2 button{
+    background-color: #4BAF47;
+    width: 150px;
+    height: 50px;
+    border-radius: 14px;
+    color: #fff;
+    border: none;
+}
+.big2 button:hover{
+    transition: 0.4s;
+    color: #4BAF47;
+    width: 170px;
+    height: 52px;
+    border-radius: 14px;
+    background-color: #fff;
+    border: 2px solid gray;
+    font-size: 16px;
+}
+@media (max-width:700px) {
+    .big1 img{
+        width: 250px;
+        height: 280px;
+        border-radius: 10px;
+        position: absolute;
+        left: 0;
+    }
+}
+@media (max-width:430px) {
+    .biggerSec{
+        /* display: flex; */
+        /* justify-content: center;
+        align-items: center; */
+        width: 100%;
+        height: auto;
+        padding-top: 80px;
+        padding-bottom: 80px;
+        border: 1px solid;
+        column-gap: 80px;
+        /* flex-wrap: wrap; */
+        row-gap: 40px;
+    }
+    .big1{
+        max-width: 400px;
+        height: 550px;
+        background-image: url('tractor.png');
+        border-radius: 10px;
+        position: relative;
+        /* display: flex; */
+        align-items: end;
+    }
+    .big1 img{
+        display: none;
+    }
+}
+
+.vedioContainer{
+    width: 100%;
+    height: 500px;
+    background-image: url("mkc vedio ki.png");
+    background-position: center;
+    background-size: cover;
+}
+.proDetail{
+    color: #A5A49A;
+    background-color: #000;
+    border: none;
+    height: 200px;
+    width: 100%;display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* gap: 10px; */
+    margin-top: 0px;
+    flex-wrap: wrap;
+}
+
+.OurTestimonials{
+    height: 600px;
+    width: 100%;
+    border: none;
+    background-image: url(backgroundOffWhite.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.testp{
+    color: #EEC044;
+    font-family: "Covered By Your Grace";
+    font-size: 23px;
+}
+.OurTestimonials h1{
+    font-size: 50px;
+    font-family: arial , verdana;
+}
+.ourtesti{
+    display: flex;
+    gap: 100px;
+    margin-top: 60px;
+}
+.testi1{
+    width: 420px;
+    height: 270px;
+    border: none;
+    background-color: #fff;
+    box-shadow: 0px 1px 10px 8px silver;
+    /* background-image: url(AppleTree.png);
+    background-position: center;
+    background-size: cover; */
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.review{
+    width: 300px;
+    /* border: 1px solid;   */
+    height: auto;
+    margin-top: 50px;
+    margin-left: 60px;
+}
+.review img{
+    width: 110px;
+    height: 20px;
+    margin-top: 5px;
+}
+.reviewLines p{
+    color: #878680;
+    font-size: 12px;
+    font-family: verdana, arial;
+    margin-top: 20px;
+    line-height: 20px;
+}
+.testi2{
+    width: 420px;
+    height: 270px;
+    border: none;
+    background-color: #fff;
+    box-shadow: 0px 1px 10px 8px silver;
+    /* background-image: url(GehuWithAadmi.png);
+    background-position: center;
+    background-size: cover; */
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.avatar{
+    position: absolute;
+    left: -76px;
+    top: 43px;
+}
+@media (max-width:1200px) {
+    .OurTestimonials{
+        height: auto;
+        padding-top: 40px;
+        padding-bottom: 20px;
+        width: 100%;
+        border: none;
+        background-image: url(backgroundOffWhite.png);
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .ourtesti{
+        display: flex;
+        gap: 40px;
+        /* margin: 60px; */
+        flex-direction: column;
+    }
+}
+@media (max-width:650px) {
+    .testp{
+        color: #EEC044;
+        font-family: "Covered By Your Grace";
+        font-size: 23px;
+        text-align: center;
+    }
+    .OurTestimonials h1{
+        font-size: 50px;
+        font-family: arial , verdana;
+        text-align: center;
+    }
+    .ourtesti{
+        display: flex;
+        gap: 40px;
+        margin-top: 30px;
+        flex-direction: column;
+    }
+    .testi1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 370px;
+        height: 220px;
+        border: none;
+        background-color: #fff;
+        box-shadow: 0px 1px 10px 8px silver;
+        border-radius: 10px;
+        position: relative;
+    }
+    .testi2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 370px;
+        height: 220px;
+        border: none;
+        background-color: #fff;
+        box-shadow: 0px 1px 10px 8px silver;
+        border-radius: 10px;
+        position: relative;
+    }
+    .avatar{
+        position: absolute;
+        left: 140px;
+        margin: auto;
+        top: 28px;
+        left: 230px;
+        border-radius: 50%;
+        height: 60px;
+        width: 60px;
+    }
+    .review{
+        width: 300px;
+        margin-left: -5px;
+        margin-top: -1px;
+    }
+    .review img{
+        width: 110px;
+        height: 20px;
+        margin-top: 5px;
+    }
+    .reviewLines p{
+        color: #878680;
+        font-size: 12px;
+        font-family: verdana, arial;
+        /* margin-top: 20px; */
+        line-height: 20px;
+    }
+}
+@media (max-width:410px) {
+    .testi1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 300px;
+        height: 220px;
+        border: none;
+        background-color: #fff;
+        box-shadow: 0px 1px 10px 8px silver;
+        border-radius: 10px;
+        position: relative;
+    }
+    .testi2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 300px;
+        height: 220px;
+        border: none;
+        background-color: #fff;
+        box-shadow: 0px 1px 10px 8px silver;
+        border-radius: 10px;
+        position: relative;
+    }
+    .avatar{
+        position: absolute;
+        left: 140px;
+        margin: auto;
+        top: 13px;
+        left: 180px;
+        border-radius: 50%;
+        height: 60px;
+        width: 60px;
+    }
+    .review{
+        width: 250px;
+        margin-left: -5px;
+        margin-top: -1px;
+    }
+}
+
+
+
+
+.articals{
+    margin-top: 50px;
+}
+.articals p{
+    color: #EEC044;
+    font-family: "Covered By Your Grace";
+    font-size: 23px;
+    text-align: center;
+}
+.articals h1{
+    font-size: 50px;
+    font-family: arial , verdana;
+    text-align: center;
+}
+
+
+
+
+.branding{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap:40px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+.brand{
+    height: 290px;
+    width: 260px;
+    border: none;
+    border-radius: 8px;
+    background-image: url(a1.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    position: relative;
+}
+.brand:hover{
+    height: 295px;
+    width: 265px;
+    border: none;
+    border-radius: 8px;
+    background-image: url(kevin.Smith.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    position: relative;
+    transition: 0.2s;
+}
+.brand1{
+    height: 290px;
+    width: 260px;
+    border: none;
+    border-radius: 8px;
+    background-image: url("a2.png");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    position: relative;
+}
+.brand1:hover{
+    height: 295px;
+    width: 265px;
+    border: none;
+    border-radius: 8px;
+    background-image: url("jessica brown.png");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    position: relative;
+    transition: 0.2s;
+}
+.brand2{
+    height: 290px;
+    width: 260px;
+    border: none;
+    border-radius: 8px;
+    background-image: url("a3.png");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    position: relative;
+}
+.brand2:hover{
+    height: 295px;
+    width: 265px;
+    border: none;
+    border-radius: 8px;
+    background-image: url("devid martin.png");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    position: relative;
+    transition: 0.2s;
+}
+.bra{
+    height: 65px;
+    width: 190px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 8px 3px silver;
+    background-color: #fff;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.spanbtn{
+    height: 45px;
+    width: 45px;
+    position: absolute;
+    top: 9.6px;
+    left: -24px;
+}
+.spanbtn:hover{
+    transition: 0.4s;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 9.6px;
+    left: -24px;
+}
+.brainfo{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-left: 25px;
+}
+.brainfo h4{
+    font-family: verdana, arial;
+    font-size: 16px;
+}
+.brainfo p{
+    color: #878680;
+    font-family: verdana, arial;
+    font-size: 13px;
+    margin-top: 5px;
+}
+@media (max-width:558px) {
+    .bra{
+        height: 65px;
+        width: 190px;
+        border: none;
+        border-radius: 5px;
+        box-shadow: 1px 1px 8px 3px silver;
+        background-color: #fff;
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.offwhite{
+    background-color: #F8F7F0;
+    width: 100%;
+    height: 200px;
+    margin-top: 100px;
+}
