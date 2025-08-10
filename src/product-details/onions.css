@@ -6,11 +6,11 @@
     align-items: center;
     justify-content: center;
     margin-inline: 10px;
+    margin-top: 150px;
 }
 
 .quantity {
     display: flex;
-    gap: 20px;
     /* border: 1px solid red; */
 }
 
@@ -18,12 +18,14 @@
     height: 480px;
     width: 450px;
     border-radius: 18px;
+    margin-right: 30px;
 }
 
 .qauntity2 {
     display: flex;
     flex-direction: column;
     gap: 30px;
+    max-width: 28rem;
     /* border: 1px solid red; */
 }
 
@@ -100,14 +102,16 @@
     width: auto;
 }
 
-.show-count {
+#show-count {
     height: 50px;
     width: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid #ECE7E2;
-    border-radius: 8px 0px 0px 8px;
+    border: none;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0px 0px 0px 0px;
 }
 
 .click {
@@ -115,24 +119,23 @@
     flex-direction: column;
 }
 
-.increase {
-    height: 25px;
-    width: 30px;
-    border: 1px solid #ECE7E2;
-    border-left: none;
-    border-radius: 0px 8px 0px 0px;
+#increase {
+    height: 50px;
+    width: 40px;
+    border: 1px solid #ccc;
+    border-right: none;
+    border-radius: 8px 0px 0px 8px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.decrease {
-    height: 24px;
-    width: 30px;
-    border: 1px solid #ECE7E2;
+#decrease {
+    height: 50px;
+    width: 40px;
+    border: 1px solid #ccc;
     border-left: none;
-    border-top: none;
-    border-radius: 0px 0px 8px 0px;
+    border-radius: 0px 8px 8px 0px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -143,7 +146,7 @@
     gap: 10px;
 }
 
-.add-cart {
+#add-cart {
     height: 50px;
     width: 140px;
     border: none;
@@ -152,9 +155,10 @@
     color: white;
     font-size: 11px;
     font-family: verdana;
+    cursor: pointer;
 }
 
-.add-whitelist {
+#add-whitelist {
     height: 50px;
     width: 180px;
     border: none;
@@ -163,6 +167,7 @@
     color: white;
     font-size: 11px;
     font-family: verdana;
+    cursor: pointer;
 }
 
 .share-With-Friends {
@@ -215,7 +220,7 @@
     justify-content: center;
     align-items: center;
     margin-top: 50px;
-    
+
 }
 
 .details {

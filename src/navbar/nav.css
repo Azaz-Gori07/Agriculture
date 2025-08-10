@@ -1,134 +1,356 @@
-.navbar{
-    width: 70%;
-    height: 60px;
-    /* border: 1px solid; */
+/* Amazing 3D Navbar with Advanced Animations */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css');
+
+* {
+    box-sizing: border-box;
+}
+
+.navbar {
+    width: 100%;
+    height: 70px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.95) 0%, rgba(248, 249, 250, 0.95) 100%);
+    backdrop-filter: blur(25px);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-right: auto;
-    margin-left: auto;
-    gap: 20px;
+    padding: 0 120px;
+    gap: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    border-bottom: 1px solid rgba(76, 175, 80, 0.15);
+    font-family: 'Inter', sans-serif;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    box-sizing: border-box;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
 }
 
-.Logo{
+.navbar:hover {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.98) 0%, rgba(240, 242, 245, 0.98) 100%);
+    border-bottom: 1px solid rgba(76, 175, 80, 0.25);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
+}
+
+.Logo {
     height: auto;
     width: auto;
-    padding: 0px;
-    margin: 0px;
-}
-.Logo img{
-    height: 50px;
-}
-.links{
-    display: flex;
-    width:340px;
-    height: 50px;
-    justify-content: space-between;
-    align-items: center;
+    padding: 0;
+    margin: 0;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+    flex-shrink: 0;
 }
 
- .links ul{
-    list-style: none;
-    padding: 0px;
-    margin: 0px;
+.Logo::before {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+    background: linear-gradient(45deg, #4CAF50, #45a049, #66BB6A);
+    border-radius: 15px;
+    opacity: 0;
+    transition: all 0.4s ease;
+    z-index: -1;
+    filter: blur(15px);
 }
-.links ul:hover{
-    width: 80px;
-    height: 40px;
-    background-color: rgba(0, 0, 0, 0.3);
+
+.Logo:hover::before {
+    opacity: 0.4;
+    transform: scale(1.1);
+}
+
+.Logo::after {
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background: linear-gradient(90deg, #4CAF50, #45a049, #66BB6A);
+    transition: width 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    border-radius: 2px;
+}
+
+.Logo:hover::after {
+    width: 100%;
+}
+
+.Logo:hover {
+    transform: scale(1.05) rotateY(5deg);
+}
+
+.Logo img {
+    height: 48px;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.1));
+}
+
+.links {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 8px;
-
-    transition: 0.6s;
-    color: white;
+    gap: 20px;
+    flex: 1;
+    max-width: 350px;
+    margin: 0 auto;
 }
-.link{
+
+.links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+.link {
     text-decoration: none;
-    color: black;
-    font-size: 17px;
-}
-.nv2{
+    color: #2c3e50;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 8px 12px;
+    border-radius: 12px;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 0.3px;
+    white-space: nowrap;
+    overflow: hidden;
     display: flex;
-    height: 50px;
-    width: 70px;
-    justify-content: space-between;
     align-items: center;
-    gap: 10px;
-}
-.nv2 img{
-    height: 26px;
+    gap: 4px;
 }
 
-.nv2 img:hover{
-    height: 29px;
-    transition: 0.9;
-
+.link::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, #4CAF50, #45a049);
+    border-radius: 12px;
+    opacity: 0;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    z-index: -1;
+    transform: scale(0.8);
 }
 
-.nv2 p{
+.link::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    transition: all 0.6s ease;
+    transform: translate(-50%, -50%);
+}
+
+.link:hover::after {
+    width: 300px;
+    height: 300px;
+}
+
+.link:hover::before {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.link:hover {
+    color: white;
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 8px 25px rgba(76, 175, 80, 0.4);
+}
+
+/* Icon styling */
+.link i {
+    font-size: 14px;
+    margin-right: 8px;
+    opacity: 0.7;
+    transition: all 0.3s ease;
+}
+
+.link:hover i {
+    opacity: 1;
+    transform: rotateY(180deg);
+}
+
+.nv2 {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    flex-shrink: 0;
+}
+
+.nv2 img {
+    height: 22px;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer;
+    opacity: 0.8;
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.1));
+    background: transparent;
+    box-sizing: content-box;
+}
+
+.nv2 img:hover {
+    transform: scale(1.1);
+    opacity: 1;
+    filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.3));
+}
+
+.nv2 p {
     display: none;
     justify-content: center;
     align-items: center;
-    width: 35px;
-    height: 30px;
-    font-size: 20px;
-    border: 1px solid;
-    border-radius: 8px;
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background: linear-gradient(135deg, #4CAF50, #45a049);
+    color: white;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    font-family: 'Inter', sans-serif;
+    box-shadow: 0 4px 15px rgba(76, 175, 80, 0.3);
+    position: relative;
+    overflow: hidden;
 }
 
-@media (max-width:1000px) {
-    .navbar{
-        width: 80%;
-        height: 60px;
-        /* border: 1px solid; */
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin-right: auto;
-        margin-left: auto;
-        gap: 20px;
+.nv2 p::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+    transition: left 0.6s ease;
+}
+
+.nv2 p:hover::before {
+    left: 100%;
+}
+
+.nv2 p:hover {
+    transform: scale(1.1) rotateY(10deg);
+    box-shadow: 0 8px 25px rgba(76, 175, 80, 0.5);
+    background: linear-gradient(135deg, #45a049, #4CAF50);
+}
+
+/* 3D Animation for navbar */
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-5px);
     }
 }
 
-@media (max-width:750px) {
-    .navbar{
-        width: 90%;
-        height: 60px;
-        /* border: 1px solid; */
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin-right: auto;
-        margin-left: auto;
+.navbar {
+    animation: float 6s ease-in-out infinite;
+}
+
+/* Glow effect for active elements */
+@keyframes glow {
+    0%, 100% {
+        box-shadow: 0 0 5px rgba(76, 175, 80, 0.3);
+    }
+    50% {
+        box-shadow: 0 0 20px rgba(76, 175, 80, 0.6);
+    }
+}
+
+.navbar:hover {
+    animation: glow 2s ease-in-out infinite;
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+    .navbar {
+        padding: 0 30px;
+    }
+    
+    .links {
+        gap: 35px;
+        max-width: 400px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .navbar {
+        padding: 0 25px;
+    }
+    
+    .links {
+        gap: 30px;
+        max-width: 350px;
+    }
+    
+    .link {
+        font-size: 14px;
+        padding: 10px 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        padding: 0 20px;
+        height: 65px;
+    }
+    
+    .links {
+        display: none;
+    }
+    
+    .Logo img {
+        height: 42px;
+    }
+    
+    .nv2 {
         gap: 20px;
     }
-    .links{
+    
+    .nv2 img {
+        height: 20px;
         display: none;
     }
-
-    .Logo img{
-        height: 50px;
-    }
-    .nv2 img{
-        height: 26px;
-        display: none;
-    }
-    .nv2 p{
+    
+    .nv2 p {
         display: flex;
-        justify-content: center;
-        align-items: center;
         width: 35px;
-        height: 30px;
-        font-size: 20px;
-        border: 1px solid;
-        border-radius: 8px;
+        height: 35px;
+        font-size: 16px;
     }
 }
 
-@media (max-width:500px) {
-    .nv2 img{
-        display: none;
+@media (max-width: 480px) {
+    .navbar {
+        padding: 0 15px;
+        height: 60px;
+    }
+    
+    .Logo img {
+        height: 38px;
+    }
+    
+    .nv2 {
+        gap: 15px;
+    }
+    
+    .nv2 p {
+        width: 32px;
+        height: 32px;
+        font-size: 14px;
     }
 }

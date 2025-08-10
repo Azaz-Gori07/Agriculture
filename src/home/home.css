@@ -43,7 +43,8 @@
     color: white;
     font-size: 12px;
 }
-.ShowBtn button:hover{
+
+.ShowBtn button:hover {
     transition: all 0.4s linear;
     background-color: #000;
     color: #fff;
@@ -352,6 +353,7 @@
     align-items: center;
     gap: 10px;
 }
+
 .cards h3 {
     font-family: Verdana, arial;
     font-weight: 500;
@@ -368,7 +370,7 @@
     border-radius: 15px;
 }
 
-.cards img:hover{
+.cards img:hover {
     transition: 0.5s;
     width: 300px;
     height: 310px;
@@ -479,6 +481,7 @@
     border: none;
     border-radius: 5px;
 }
+
 .yellowGreenContanair button:hover {
     transition: 0.5s;
     width: 115px;
@@ -523,6 +526,7 @@
     border-radius: 6px;
     background-color: #4BAF47;
 }
+
 .healthyFood button:hover {
     transition: 0.4s;
     width: 125px;
@@ -636,7 +640,7 @@
     border-radius: 12px;
 }
 
-.cards2 img:hover{
+.cards2 img:hover {
     transition: 0.4s;
     width: 290px;
     height: 300px;
@@ -668,7 +672,7 @@
     width: 600px;
 }
 
-.section2{
+.section2 {
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -681,12 +685,14 @@
     font-family: "Covered By Your Grace";
     font-size: 23px;
 }
-.textsec h1{
+
+.textsec h1 {
     margin-top: 10px;
-    font-family: arial , verdana;
+    font-family: arial, verdana;
     font-size: 50px;
 }
-.peregraph{
+
+.peregraph {
     font-family: arial, verdana;
     font-size: 14px;
     color: #878680;
@@ -694,19 +700,20 @@
     line-height: 25px;
 }
 
-.miniSec{
+.miniSec {
     display: flex;
     column-gap: 30px;
     font-family: arial, verdana;
     align-items: center;
 }
 
-.miniSec h1{
+.miniSec h1 {
     margin-top: 12px;
     font-size: 25px;
     letter-spacing: 1px;
 }
-.miniSec h1 b{
+
+.miniSec h1 b {
     font-size: 13px;
     font-weight: 100;
     color: #878680;
@@ -714,19 +721,20 @@
     top: -10px;
 }
 
-.miniSec2{
+.miniSec2 {
     display: flex;
     column-gap: 30px;
     font-family: arial, verdana;
     align-items: center;
 }
 
-.miniSec2 h1{
+.miniSec2 h1 {
     margin-top: 12px;
     font-size: 25px;
     letter-spacing: 1px;
 }
-.miniSec2 h1 b{
+
+.miniSec2 h1 b {
     font-size: 13px;
     font-weight: 100;
     color: #878680;
@@ -734,7 +742,7 @@
     top: -10px;
 }
 
-.section2 button{
+.section2 button {
     width: 140px;
     background-color: #4BAF47;
     height: 49px;
@@ -744,7 +752,8 @@
     font-family: Arial, verdana;
     margin-top: 10px;
 }
-.section2 button:hover{
+
+.section2 button:hover {
     transition: 0.6s;
     background-color: #000;
     color: #fff;
@@ -763,7 +772,8 @@
         margin-top: 200px;
         row-gap: 30px;
     }
-    .section2{
+
+    .section2 {
         display: flex;
         flex-direction: column;
         gap: 30px;
@@ -772,18 +782,21 @@
         padding: 20px;
     }
 }
+
 @media (max-width:650px) {
     .imgsec img {
         height: 440px;
         width: 430px;
     }
 }
+
 @media (max-width:470px) {
     .imgsec img {
         height: 390px;
         width: 380px;
     }
 }
+
 @media (max-width:410px) {
     .imgsec img {
         height: 320px;
@@ -791,12 +804,13 @@
     }
 }
 
-.proDetail{
+.proDetail {
     color: #A5A49A;
     background-color: #000;
     border: none;
     height: 200px;
-    width: 100%;display: flex;
+    width: 100%;
+    display: flex;
     align-items: center;
     justify-content: space-evenly;
     /* gap: 10px; */
@@ -804,7 +818,7 @@
     flex-wrap: wrap;
 }
 
-.OurTestimonials{
+.OurTestimonials {
     height: 600px;
     width: 100%;
     border: none;
@@ -816,21 +830,25 @@
     justify-content: center;
     align-items: center;
 }
-.testp{
+
+.testp {
     color: #EEC044;
     font-family: "Covered By Your Grace";
     font-size: 23px;
 }
-.OurTestimonials h1{
+
+.OurTestimonials h1 {
     font-size: 50px;
-    font-family: arial , verdana;
+    font-family: arial, verdana;
 }
-.ourtesti{
+
+.ourtesti {
     display: flex;
     gap: 100px;
     margin-top: 60px;
 }
-.testi1{
+
+.testi1 {
     width: 420px;
     height: 270px;
     border: none;
@@ -844,26 +862,30 @@
     display: flex;
     justify-content: center;
 }
-.review{
+
+.review {
     width: 300px;
     /* border: 1px solid;   */
     height: auto;
     margin-top: 50px;
     margin-left: 60px;
 }
-.review img{
+
+.review img {
     width: 110px;
     height: 20px;
     margin-top: 5px;
 }
-.reviewLines p{
+
+.reviewLines p {
     color: #878680;
     font-size: 12px;
     font-family: verdana, arial;
     margin-top: 20px;
     line-height: 20px;
 }
-.testi2{
+
+.testi2 {
     width: 420px;
     height: 270px;
     border: none;
@@ -877,13 +899,15 @@
     display: flex;
     justify-content: center;
 }
-.avatar{
+
+.avatar {
     position: absolute;
     left: -76px;
     top: 43px;
 }
+
 @media (max-width:1200px) {
-    .OurTestimonials{
+    .OurTestimonials {
         height: auto;
         padding-top: 40px;
         padding-bottom: 20px;
@@ -897,32 +921,37 @@
         justify-content: center;
         align-items: center;
     }
-    .ourtesti{
+
+    .ourtesti {
         display: flex;
         gap: 40px;
         /* margin: 60px; */
         flex-direction: column;
     }
 }
+
 @media (max-width:650px) {
-    .testp{
+    .testp {
         color: #EEC044;
         font-family: "Covered By Your Grace";
         font-size: 23px;
         text-align: center;
     }
-    .OurTestimonials h1{
+
+    .OurTestimonials h1 {
         font-size: 50px;
-        font-family: arial , verdana;
+        font-family: arial, verdana;
         text-align: center;
     }
-    .ourtesti{
+
+    .ourtesti {
         display: flex;
         gap: 40px;
         margin-top: 30px;
         flex-direction: column;
     }
-    .testi1{
+
+    .testi1 {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -934,7 +963,8 @@
         border-radius: 10px;
         position: relative;
     }
-    .testi2{
+
+    .testi2 {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -946,7 +976,8 @@
         border-radius: 10px;
         position: relative;
     }
-    .avatar{
+
+    .avatar {
         position: absolute;
         left: 140px;
         margin: auto;
@@ -956,17 +987,20 @@
         height: 60px;
         width: 60px;
     }
-    .review{
+
+    .review {
         width: 300px;
         margin-left: -5px;
         margin-top: -1px;
     }
-    .review img{
+
+    .review img {
         width: 110px;
         height: 20px;
         margin-top: 5px;
     }
-    .reviewLines p{
+
+    .reviewLines p {
         color: #878680;
         font-size: 12px;
         font-family: verdana, arial;
@@ -974,8 +1008,9 @@
         line-height: 20px;
     }
 }
+
 @media (max-width:410px) {
-    .testi1{
+    .testi1 {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -987,7 +1022,8 @@
         border-radius: 10px;
         position: relative;
     }
-    .testi2{
+
+    .testi2 {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -999,7 +1035,8 @@
         border-radius: 10px;
         position: relative;
     }
-    .avatar{
+
+    .avatar {
         position: absolute;
         left: 140px;
         margin: auto;
@@ -1009,36 +1046,42 @@
         height: 60px;
         width: 60px;
     }
-    .review{
+
+    .review {
         width: 250px;
         margin-left: -5px;
         margin-top: -1px;
     }
 }
-.articals{
+
+.articals {
     margin-top: 50px;
 }
-.articals p{
+
+.articals p {
     color: #EEC044;
     font-family: "Covered By Your Grace";
     font-size: 23px;
     text-align: center;
 }
-.articals h1{
+
+.articals h1 {
     font-size: 50px;
-    font-family: arial , verdana;
+    font-family: arial, verdana;
     text-align: center;
 }
-.branding{
+
+.branding {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-    gap:40px;
+    gap: 40px;
     margin-top: 50px;
     flex-wrap: wrap;
 }
-.brand{
+
+.brand {
     height: 290px;
     width: 260px;
     border: none;
@@ -1051,7 +1094,8 @@
     align-items: end;
     position: relative;
 }
-.brand:hover{
+
+.brand:hover {
     height: 295px;
     width: 265px;
     border: none;
@@ -1065,7 +1109,8 @@
     position: relative;
     transition: 0.2s;
 }
-.brand1{
+
+.brand1 {
     height: 290px;
     width: 260px;
     border: none;
@@ -1078,7 +1123,8 @@
     align-items: end;
     position: relative;
 }
-.brand1:hover{
+
+.brand1:hover {
     height: 295px;
     width: 265px;
     border: none;
@@ -1092,7 +1138,8 @@
     position: relative;
     transition: 0.2s;
 }
-.brand2{
+
+.brand2 {
     height: 290px;
     width: 260px;
     border: none;
@@ -1105,7 +1152,8 @@
     align-items: end;
     position: relative;
 }
-.brand2:hover{
+
+.brand2:hover {
     height: 295px;
     width: 265px;
     border: none;
@@ -1119,7 +1167,8 @@
     position: relative;
     transition: 0.2s;
 }
-.bra{
+
+.bra {
     height: 65px;
     width: 190px;
     border: none;
@@ -1133,14 +1182,16 @@
     justify-content: center;
     align-items: center;
 }
-.spanbtn{
+
+.spanbtn {
     height: 45px;
     width: 45px;
     position: absolute;
     top: 9.6px;
     left: -24px;
 }
-.spanbtn:hover{
+
+.spanbtn:hover {
     transition: 0.4s;
     height: 50px;
     width: 50px;
@@ -1148,24 +1199,28 @@
     top: 9.6px;
     left: -24px;
 }
-.brainfo{
+
+.brainfo {
     display: flex;
     flex-direction: column;
     align-items: end;
     margin-left: 25px;
 }
-.brainfo h4{
+
+.brainfo h4 {
     font-family: verdana, arial;
     font-size: 16px;
 }
-.brainfo p{
+
+.brainfo p {
     color: #878680;
     font-family: verdana, arial;
     font-size: 13px;
     margin-top: 5px;
 }
+
 @media (max-width:558px) {
-    .bra{
+    .bra {
         height: 65px;
         width: 190px;
         border: none;
@@ -1181,7 +1236,7 @@
     }
 }
 
-.greenNAture{
+.greenNAture {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1190,7 +1245,8 @@
     margin-top: 40px;
     margin-bottom: 80px;
 }
-.greenPro{
+
+.greenPro {
     height: 250px;
     width: 220px;
     border: none;
@@ -1199,7 +1255,8 @@
     background-position: center;
     background-size: cover;
 }
-.greenPro:hover{
+
+.greenPro:hover {
     transition: 0.7s;
     height: 275px;
     width: 245px;
@@ -1209,16 +1266,18 @@
     background-position: center;
     background-size: cover;
 }
-.greenPro2{
+
+.greenPro2 {
     height: 250px;
     width: 220px;
     border: none;
     border-radius: 8px;
-    background-image: url("div.thumb (1).png" );
+    background-image: url("div.thumb (1).png");
     background-position: center;
     background-size: cover;
 }
-.greenPro2:hover{
+
+.greenPro2:hover {
     transition: 0.7s;
     height: 275px;
     width: 245px;
@@ -1228,16 +1287,18 @@
     background-position: center;
     background-size: cover;
 }
-.greenPro3{
+
+.greenPro3 {
     height: 250px;
     width: 220px;
     border: none;
     border-radius: 8px;
-    background-image: url("div.thumb (2).png" );
+    background-image: url("div.thumb (2).png");
     background-position: center;
     background-size: cover;
 }
-.greenPro3:hover{
+
+.greenPro3:hover {
     transition: 0.7s;
     height: 275px;
     width: 245px;
@@ -1247,16 +1308,18 @@
     background-position: center;
     background-size: cover;
 }
-.greenPro4{
+
+.greenPro4 {
     height: 250px;
     width: 220px;
     border: none;
     border-radius: 8px;
-    background-image: url("div.thumb (3).png" );
+    background-image: url("div.thumb (3).png");
     background-position: center;
     background-size: cover;
 }
-.greenPro4:hover{
+
+.greenPro4:hover {
     transition: 0.7s;
     height: 275px;
     width: 245px;
@@ -1266,16 +1329,18 @@
     background-position: center;
     background-size: cover;
 }
-.greenPro5{
+
+.greenPro5 {
     height: 250px;
     width: 220px;
     border: none;
     border-radius: 8px;
-    background-image: url("div.thumb (4).png" );
+    background-image: url("div.thumb (4).png");
     background-position: center;
     background-size: cover;
 }
-.greenPro5:hover{
+
+.greenPro5:hover {
     transition: 0.7s;
     height: 275px;
     width: 245px;
